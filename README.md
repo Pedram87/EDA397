@@ -1,11 +1,9 @@
 # Agile Development Processes - lp4, vt2016
 
-- Currently updating this webpage.
-- First lecture: 2016-Mar-22, 15:15, Room Alfa
-- Ericsson confirmed guest lecture
+- Lecture 8 (Information flows) online
+- Combined lecture on Agile Architecture with guest lecture (Patrizio Pelliccione) and moved it to May-24
 
-
-Last update: 2016-03-24
+Last update: 2016-05-03
 
 ## Course Description
 Agile software development aims at setting up an environment to develop software based on the following principles from the agile manifesto:
@@ -60,27 +58,26 @@ Acceptance tests will generally be on Thursdays, 13:00-17:00. We aim for two wee
 | Date & Time | Room(s) | Theme |Who | Slides | Videos | Readings |
 |  ------	| :----:	| ------	| :------: | :------: | :------: | :------ |  
 | Mar-22 *15:15-17:00* | Alfa | Course Introduction, overview of Agile, course Q&A, assigning groups | EK | [L1] | | [Cockburn2009, Ch. 4], [Cohen04] |  
-| Mar-24 *13:15-17:00* | Beta | Get started with groups; working environment; Project Startup, incl. 1st customer meeting | TB, MA, | [L2] | | [Android](https://github.com/oerich/EDA397/wiki/Getting-Started:-Android), [AndroidExamples] |  
+| Mar-24 *13:15-17:00* | Beta | Get started with groups; working environment; Project Startup, incl. 1st customer meeting | TB, MA, | [L2] | | [Android][get started Android], [AndroidExamples] |
 | Easter Break | |  | | | | | |
-| Apr-12 *13:15-15:00* | Styrbord (near Äran) | Miniature on Agile Software Development Principles | EK |  | | [Cockburn 2009, Appendix A] |
+| Apr-12 *13:15-15:00* | Styrbord (near Äran) | Miniature on Agile Software Development Principles | EK | [L3] | | [Cockburn 2009, Appendix A] |
 | Apr-14 *13:15-17:00* | indiv. announcement | Acceptance test, Sprint retrospective, Sprint planning | TB, MA |  | | |
-| Apr-15 *13:15-15:00* | Gamma |  Agile Software Development: Principles and Practices | EK |  | | [Schwaber95]|  
+| Apr-15 *13:15-15:00* | Gamma |  Agile Software Development: Principles and Practices | EK | [L4] | | [Schwaber95], [Scrum guide] |
 
 
 ### Sprint 2: Focus on getting work done
 
-Careful, these times still refer to 2015!
-
 | Date & Time | Room(s) | Theme | Who | Slides | Readings |
 |  ------	| :----:	| ------	| :------: | :------: | :------: | :------ |  
-| Apr-19 13:15 - 15:00 | Delta | Lean and Kanban | EK | | |
+| Apr-19 13:15 - 15:00 | Delta | Lean Software Development | EK | [L5] | |
 | Apr-19 15:15 - 17:00 | J321, J317, J322 | Open Q/A and Coaching | TB, MA, EK | | |
-| Apr-21 13:15 - 17:00 | J321, J317, J322 | Open Q/A and Coaching | TB, MA, EK | | |
-| Apr-22 13:15 - 15:00 | Alfa | Test-driven Development | EK | | |
-| Apr-26 13:15 - 15:00 | Alfa | Agile vs. Plan-driven | EK | | Optional reading: [Cockburn 2009, Ch. 0 & 1] |
+| Apr-21 13:15 - 15:00 | J322 | *Optional workshop:* Android and Github | MA | | [git][get started git], [Android][get started Android] |
+| Apr-21 13:15 - 17:00 | J321, J317, J322 | In parallel to workshop: Open Q/A and Coaching | TB, (MA), EK | | |
+| Apr-22 13:15 - 15:00 | Alfa | Test-driven Development | EK | [L6] | |
+| Apr-26 13:15 - 15:00 | Alfa | Agile vs. Plan-driven | EK | [L7] | Optional reading: [Cockburn 2009, Ch. 0 & 1] |
 | Apr-26 15:15 - 17:00 | J321, J317, J322 | Open Q/A and Coaching | TB, MA, EK | | |
-| Apr-28 15:15 - 17:00 | indiv. announcement | Acceptance test, Sprint retrospective, Sprint planning | TB, MA | | |
-| Apr-29 13:15 - 15:00 | J321, J317, J322 | Open Q/A and Coaching | TB, MA, EK | | |
+| Apr-28 15:15 - 17:00 | J321, J322 | Acceptance test, Sprint planning | TB, MA | | |
+| Apr-29 13:15 - 15:00 | J321, J322 | Sprint retrospective | TB, MA | | |
 
 ### Sprint 3: Focus on theory and advanced concepts of agile
 
@@ -88,16 +85,16 @@ Current state of planning, changes might happen.
 
 | Date & Time | Room(s) | Theme |Who | Slides | Readings |
 |  ------	| :----:	| ------	| :------: | :------: | :------: | :------ |  
-| May-3 13:15 - 15:00 | Beta | Information Flow in Agile Development | EK | | [Cockburn 2009, Ch. 3]|
+| May-3 13:15 - 15:00 | Beta | Information Flow in Agile Development | EK | [L8] | [Cockburn 2009, Ch. 3]|
 | May-3 15:15 - 17:00 | J321, J317, J322 | Open Q/A and Coaching | TB, MA, EK | | |
-| May-10 13:15 - 15:00 | Delta | RE and Architecture in Agile Software Development | EK  | | [Cockburn 2009, Ch. 5] |
+| May-10 13:15 - 15:00 | Delta | Continuous Integration and Deployment | EK  | | [Cockburn 2009, Ch. 5] |
 | May-10 15:15 - 17:00 | J321, J317, J322 | Open Q/A and Coaching | TB, MA, EK | | |
 | May-12 13:15 - 17:00 | indiv. announcement | Acceptance test, Sprint retrospective, Sprint planning | TB, MA | |  |
+| May-13 13:15 - 15:00 | indiv. announcement | Acceptance test, Sprint retrospective, Sprint planning | TB, MA | |  |
 | May-17 13:15 - 15:00 | Omega | Slot for guest lecture or Open Q/A and Coaching |   |  | [Cockburn 2009, Ch. 2] |
-| May-19 13:15 - 17:00 | J321, J317, J322 | Guest lecture (Ericsson) | *Guest Lecture:* | | |
-| May-20 13:15 - 15:00 | Alfa | Alternative slot for guest lecture |  | | |
-| May-21 13:15 - 17:00 | indiv. announcement | **final** Acceptance testing | EA | | |
-| May-24 13:15 - 15:00 | Delta | Slot for guest lecture | |  |
+| May-19 13:15 - 15:00 | Delta | *Guest Lecture:* Mats Eriksson and Jimmy Nilsson  (Ericsson AB) | MA | | |
+| May-20 13:15 - 17:00 | Individual announcement | **final** Acceptance testing | TB, MA | | |
+| May-24 13:15 - 15:00 | Delta | *Guest Lecture*: Patrizio Pelliccione (GU & Chalmers): Agile architecting | |  |
 | May-26 13:15 - 17:00 | Alfa | Presentation of Results| Project teams | | |
 | May-27 13:15 - 15:00 | Alfa | Alternative slot for guest lecture |  | | [Cockburn 2009, Ch. 6] |
 
@@ -106,8 +103,11 @@ Current state of planning, changes might happen.
 
 [TimeEdit]: https://se.timeedit.net/web/chalmers/db1/public/ri15YXQ2708Z59Qv3X0036Q6y6Y000965Y61Y5gQ7075763Z7.html
 [AndroidExamples]: https://github.com/oerich/AndroidExamples
+[get started Android]: https://github.com/oerich/EDA397/wiki/Getting-Started:-Android
+[get started git]: https://github.com/oerich/EDA397/wiki/Getting-Started:-Git
 [Cohen04]: https://github.com/oerich/EDA397/blob/master/Papers/cohen_2004_intro_to_agile_methods.pdf?raw=true
 [Schwaber95]: https://github.com/oerich/EDA397/blob/master/Papers/schwaber_1995_scrum_dev_process.pdf?raw=true
+[Scrum guide]: http://scrumguides.org/scrum-guide.html
 
 [L1]: https://github.com/oerich/EDA397/blob/master/Slides/l1.pdf?raw=true
 [L2]: https://github.com/oerich/EDA397/blob/master/Slides/l2.pdf?raw=true
@@ -159,11 +159,11 @@ The examination consists of three parts:
 
 1. A **Software Development project** where you work in groups to develop an Android or iOS app using agile practices.
 
-2. A  **[Post-mortem Report][PMR]** that outlines your experience with agile practices during the software development project. (individual)
+2. A  **[Post-mortem Report][PMR]** that outlines your group's experience with agile practices during the software development project.
 
 3. A **Written exam**  based on the main course book, the papers listed in the table above and the material presented in lectures as well as on your project.
 
-To pass the course it is extremely important that you read all the course material, participate in lectures and are active in and finish your project. If you do not you will fail! Remember that this is a master level course and requires considerably more than most bachelor level courses.
+To pass the course it is extremely important that you read all the course material, participate in lectures and are active in and finish your project. If you do not, you will fail! Remember that this is a master level course and requires considerably more than most bachelor level courses.
 
 Your final grade will be set according to the [Grading Policy][GP]
 
